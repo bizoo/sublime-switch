@@ -1,0 +1,22 @@
+{
+  "switch_definitions": {
+    "*": {
+      "ampersands":         ["&&", "||"],
+      "capital_true_false": ["True", "False"],
+      "true_false":         ["true", "false"]
+    },
+
+    "rb": {
+      "rspec_should":    ["should", "should_not"],
+      "ruby_hash_style": {
+        ":(\\w+)\\s=>": "\\1:",
+        "(\\w+):":      ":\\1 =>"
+      },
+      "ruby_if_clause": {
+        "if true or \\((.*)\\)": "if false or (\\1)",
+        "if false or \\((.*)\\)": "if \\1",
+        "if (?![true|false])(.*)": "if true or (\\1)"
+      }
+    }
+  }
+}
