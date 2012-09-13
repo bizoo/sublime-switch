@@ -38,7 +38,7 @@ There are two types of toggle groups:
 
 *   Simple toggle groups
 
-    ``` json
+    ```json
     ["true", "false"]
     ```
 
@@ -46,7 +46,7 @@ There are two types of toggle groups:
 
 *   Advanced toggle groups
 
-    ``` json
+    ```json
     {
       ":(\\w+)\\s=>": "\\1:",
       "(\\w+):":      ":\\1 =>"
@@ -57,7 +57,7 @@ There are two types of toggle groups:
 
 Toggle groups are defined in the sublime-settings files as follows:
 
-``` json
+```json
 {
   "switch_custom_definitions": [
     ["if", "unless"],
@@ -71,7 +71,7 @@ Toggle groups are defined in the sublime-settings files as follows:
 
 And its possible to overwrite the builtin switches as follows. Sometimes you need or want to do that, because builtin switches overrule custom switches.
 
-``` json
+```json
 {
   "switch_builtin_definitions": [
     ["foo", "bar", "baz"],
@@ -88,7 +88,7 @@ Your also can have a look at your current or the default settings through the Su
 
 Include the following key binding definition in your sublime-keymap file and customize the keys.
 
-``` json
+```json
 [
     {
         "keys": ["super+ctrl+s"], "command": "switch"
@@ -107,58 +107,64 @@ definitions with their patterns and replacements, look at the corresponding subl
 [Ruby.sublime-settings](https://github.com/robbl/Switch/blob/master/Ruby.sublime-settings) and [Ruby on Rails.sublime-settings](https://github.com/robbl/Switch/blob/master/Ruby on Rails.sublime-settings)
 
 
-* Boolean conditions:
-  ``` ruby
-  foo && bar
-  foo || bar
-  ```
+*   Boolean conditions:
 
-* Boolean constants:
-  ``` ruby
-  flag = true
-  flag = false
-  ```
+    ```ruby
+    foo && bar
+    foo || bar
+    ```
 
-* Hash style:
-  ``` ruby
-  foo = { :one => 'two' }
-  foo = { one: 'two' }
-  ```
+*   Boolean constants:
 
-* If-clauses:
-  ``` ruby
-  if predicate?
-    puts 'Hello, World!'
-  end
+    ```ruby
+    flag = true
+    flag = false
+    ```
 
-  if true and (predicate?)
-    puts 'Hello, World!'
-  end
+*   Hash style:
 
-  if false or (predicate?)
-    puts 'Hello, World!'
-  end
-  ```
+    ```ruby
+    foo = { :one => 'two' }
+    foo = { one: 'two' }
+    ```
+
+*   If-clauses:
+
+    ```ruby
+    if predicate?
+      puts 'Hello, World!'
+    end
+
+    if true and (predicate?)
+      puts 'Hello, World!'
+    end
+
+    if false or (predicate?)
+      puts 'Hello, World!'
+    end
+    ```
 
 ## RSpec
 
 [RSpec.sublime-settings](https://github.com/robbl/Switch/blob/master/RSpec.sublime-settings)
 
-* should/should_not:
-  ``` rspec
-  1.should eq 1
-  1.should_not eq 1
-  ```
+*   should/should_not:
+
+    ``` rspec
+    1.should eq 1
+    1.should_not eq 1
+    ```
 
 ## Python
 
 [Python.sublime-settings](https://github.com/robbl/Switch/blob/master/Python.sublime-settings)
 
-* Boolean constants:
-  ``` python
-  flag = True
-  flag = False
-  ```
+*   Boolean constants:
+
+    ```python
+    flag = True
+    flag = False
+    ```
 
 # Issues
 
