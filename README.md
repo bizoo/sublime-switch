@@ -32,7 +32,7 @@ hash = { key: true }
 
 # Cusomization
 
-The following examples show how to customize the available switches. Switches are grouped together and should be considered as toggle groups. Your **are** required to do so for the full experience of this plugin.
+The following examples show how to customize the available switches. Switches are grouped together and should be considered as toggle groups. Your **are required** to do so for the full experience of this plugin.
 
 There are two types of toggle groups:
 
@@ -145,7 +145,7 @@ definitions with their patterns and replacements, look at the corresponding subl
 [RSpec.sublime-settings](https://github.com/robbl/Switch/blob/master/RSpec.sublime-settings)
 
 * should/should_not:
-  ``` ruby
+  ``` rspec
   1.should eq 1
   1.should_not eq 1
   ```
@@ -155,7 +155,7 @@ definitions with their patterns and replacements, look at the corresponding subl
 [Python.sublime-settings](https://github.com/robbl/Switch/blob/master/Python.sublime-settings)
 
 * Boolean constants:
-  ``` ruby
+  ``` python
   flag = True
   flag = False
   ```
