@@ -26,9 +26,9 @@ hash = { key: true }
 
 ## Key Bindings
 
-* OSX: <super+ctrl+s>
-* Linux: <ctrl+alt+s>
-* Windows: <ctrl+alt+s>
+* OSX: `<super+ctrl+s>`
+* Linux: `<ctrl+alt+s>`
+* Windows: `<ctrl+alt+s>`
 
 # Cusomization
 
