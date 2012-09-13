@@ -90,11 +90,10 @@ Include the following key binding definition in your sublime-keymap file and cus
 
 ```json
 [
-    {
-        "keys": ["super+ctrl+s"], "command": "switch"
-    }
+  {
+    "keys": ["super+ctrl+s"], "command": "switch"
+  }
 ]
-
 ```
 
 # Builtins
