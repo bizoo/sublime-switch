@@ -1,5 +1,5 @@
 [
     {
-        "keys": ["ctrl+s"], "command": "switch"
+        "keys": ["super+ctrl+s"], "command": "switch"
     }
 ]
