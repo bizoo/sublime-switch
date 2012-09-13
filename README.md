@@ -30,7 +30,7 @@ hash = { key: true }
 * Linux: `<ctrl+alt+s>`
 * Windows: `<ctrl+alt+s>`
 
-# Cusomization
+# Customization
 
 The following examples show how to customize the available switches. Switches are grouped together and should be considered as toggle groups. Your **are required** to do so for the full experience of this plugin.
 
