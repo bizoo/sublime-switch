@@ -18,9 +18,30 @@
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/User/Switch.sublime-settings"
+                                    "file": "${packages}/Switch/Python.sublime-settings"
                                 },
-                                "caption": "Settings – User"
+                                "caption": "Settings – Syntax Specific - Package (Python)"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/Switch/RSpec.sublime-settings"
+                                },
+                                "caption": "Settings – Syntax Specific - Package (RSpec)"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/Switch/Ruby.sublime-settings"
+                                },
+                                "caption": "Settings – Syntax Specific - Package (Ruby)"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/Switch/Ruby on Rails.sublime-settings"
+                                },
+                                "caption": "Settings – Syntax Specific - Package (Ruby on Rails)"
                             },
                             {
                                 "command": "open_file_settings",
