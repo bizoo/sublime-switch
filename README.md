@@ -164,6 +164,13 @@ definitions with their patterns and replacements, look at the corresponding subl
     flag = True
     flag = False
     ```
+# Roadmap
+
+* Add global (not language specific) switch definitions
+
+# Disclaimer
+
+Since this plugin is in a very *alpha* state be warned: The way settings are defined and applied could and sure will change in the future.
 
 # Issues
 
