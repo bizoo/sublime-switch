@@ -1,5 +1,5 @@
 {
-  "switch_base_definitions": [
+  "switch_builtin_definitions": [
     ["should", "should_not"]
   ]
 }

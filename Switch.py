@@ -4,9 +4,8 @@ class SwitchCommand(sublime_plugin.TextCommand):
   def run(self, edit):
     settings = self.view.settings()
 
-    switch_definitions = settings.get('switch_builtin_definitions')
-    if settings.has('switch_custom_definitions'):
-      switch_definitions += settings.get('switch_custom_definitions')
+    switch_definitions  = settings.get('switch_builtin_definitions', [])
+    switch_definitions += settings.get('switch_custom_definitions',  [])
 
     for region in self.view.sel():
       for group in switch_definitions:
