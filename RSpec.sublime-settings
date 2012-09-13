@@ -1,0 +1,5 @@
+{
+  "switch_base_definitions": [
+    ["should", "should_not"]
+  ]
+}

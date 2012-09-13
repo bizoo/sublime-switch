@@ -1,0 +1,15 @@
+{
+  "switch_base_definitions": [
+    ["true", "false"],
+    ["&&", "||"],
+    {
+      ":(\\w+)\\s=>": "\\1:",
+      "(\\w+):":      ":\\1 =>"
+    },
+    {
+      "if true and \\((.*)\\)": "if false or (\\1)",
+      "if false or \\((.*)\\)": "if \\1",
+      "if (?![true|false])(.*)": "if true or (\\1)"
+    }
+  ]
+}
