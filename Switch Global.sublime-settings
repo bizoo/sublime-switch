@@ -1,0 +1,6 @@
+{
+  "switch_builtin_definitions": [
+    ["True", "False"],
+    ["true", "false"]
+  ]
+}
